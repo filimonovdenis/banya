@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+		<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"/>
+	<title>banya</title>
+
+  <!-- jQuery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+  <!-- Bootstrap JS --> 
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+
+
+
+
+
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" type="text/css" href="media.css">
+
+
+
+
+</head>
+<body>
+   <div class="wrapper">
+	<header class="header header_second">
+		<!-- если что-то не работает то поставить нормальный container -->
+		<div class="container-mobile">
+			<div class="header_body">
+
+				<div class="header_burger">
+					<span></span>
+				</div>
+				<nav class="header_menu">
+					<ul class="header_list">
+						<li>
+							<a href="banya.html" class="header_link">начало</a>
+						</li>
+						<li>
+							<a href="" class="header_link">ассортимент</a>
+						</li>
+						<li>
+							<a href="" class="header_link">схема работы</a>
+						</li>
+						<li>
+							<a href="" class="header_link">примеры работ</a>
+						</li>
+										<a href="banya.html" class="header_logo">
+					<img src="image/logo.png">
+				</a>
+						<li>
+							<a href="" class="header_link">почему мы</a>
+						</li>
+						<li>
+							<a href="" class="header_link">преимущества</a>
+						</li>
+						<li>
+							<a href="" class="header_link">вопрос-ответ</a>
+						</li>
+						<li>
+							<a href="" class="header_link">отзывы</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</header>
+</div>
+<section>
+	<div class="container">
+		<div class="">
+			fhjjjjjjjjjjjjjjjjjjjjjj
+		</div>
+	</div>
+</section>
+</body>
+ 
+
+
+<!-- изза секции ниже не работает левый верхний таб -->
+<div class="tabs_in-accesories">
+<div class="buttons">
+    <button class="controls" id="previous">&lt;</button>
+    <button class="controls controls_for-hidden" id="pause">&#10074;&#10074;</button>
+    <button class="controls" id="next">&gt;</button>
+  </div>
+</div>
+<!-- не удалять -->
+
+
+
+
+
+
+
+
+
+
+<div id="popup" class="popup">
+	<div class="popup_body">
+		<div class="popup_content">
+			<a href="#" class="popup_close"><img src="image/Veasddsadsactor.svg"></a>
+			<div class="popup_title">Укажите ваш актуальный телефон, и мы свяжемся с вами в течение 15 минут</div>
+			<div class="popup_text">
+				<form name="form" action="mail.php" method="post" id="form_message">
+		<p> <div class="titles">Имя</div> <input class="input input_bottom" name="name" type="text"/> </p>
+		 
+		<p> <div class="titles">Телефон</div> <input class="input input_bottom" name="email" type="text"/> </p>		 
+		 
+        <a class="button27" href="#popup_second">
+        	оставить заявку
+        </a>
+		
+
+	</form>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div id="popup_second" class="popup_second">
+	<div class="popup_second_body">
+		<div class="popup_second_content">
+			<a href="#" class="popup_second_close"><img src="image/Veasddsadsactor.svg"></a>
+			<div class="popup_second_wrapper-element_first">
+			<div class="popup_second_telegram-icon">
+				<img src="image/idsfaafdscon.png">
+			</div>
+			<div class="popup_second_title">
+				Спасибо, ваша заявка отправлена
+			</div>
+            </div>
+            <div class="popup_second_wrapper-element_second">
+            	
+            
+			<div class="popup_second_text">
+			Нет времени ждать?
+			</div>
+			<div class="popup_three_text">
+			<a href="tel:+7 495 281-26-21">+7 495 281-26-21</a>
+			</div>
+			</div>
+			
+		</div>
+		
+	</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+	$(document).ready(function() {
+	$('.header_burger').click(function(event) {
+		$('.header_burger,.header_menu').toggleClass('active');
+		$('body').toggleClass('lock');
+	});
+
+
+	$('.menu__btn').on('click', function(){
+  $('.menu-mobile__list').toggleClass('menu-mobile__list--active')
+})
+
+$('.footer__topdrop').on('click', function(){
+  $(this).next().slideToggle();
+}); 
+
+
+</script>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="slick.min.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
